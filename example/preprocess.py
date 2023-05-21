@@ -34,8 +34,8 @@ if __name__ == '__main__':
     ##########
     # Parser #
     ##########
-    input_dir = './data/OpenStack/'
-    output_dir = './openstack_result/'
+    input_dir = '/kaggle/working/deeplog/example/data/OpenStack/'
+    output_dir = '/kaggle/working/deeplog/example/openstack_result/'
     log_format = '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>'
     log_main = 'open_stack'
     tau = 0.5
